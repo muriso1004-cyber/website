@@ -4,7 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="동작구 재개발·노량진뉴타운·신속통합기획 전문. 초기투자금과 총매수가로 매물을 비교하세요." />
+  <meta name="theme-color" content="#243c32" />
+  <meta name="format-detection" content="telephone=yes" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:title" content="내가 찾던 부동산 | 노량진뉴타운 매물·재개발 전문" />
+  <meta property="og:description" content="노량진 1~8구역 확인매물, 초기투자금, 총매수가와 사업 진행상황을 모바일에서 비교하세요." />
   <title>내가 찾던 부동산 | 동작구 재개발 · 노량진뉴타운 · 신속통합기획 전문</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -13,21 +21,24 @@
   <header class="header">
     <a href="#/" class="logo" aria-label="내가 찾던 부동산 홈으로">내가 찾던 부동산<small>동작구 재개발 · 노량진뉴타운 · 신속통합기획 전문</small></a>
     <nav class="gnb" aria-label="주 메뉴">
-      <a href="#/search">매물찾기</a><a href="#/market-status">거래현황</a><a href="#/transactions">실거래내역</a><a href="#/area/noryangjin">노량진뉴타운</a><a href="#/area/sangdo">상도 신통기획</a><a href="#/insights">김소장의 분석</a>
+      <a href="#/search">매물찾기</a><a href="#/market-status">거래현황</a><a href="#/progress">진행상황</a><a href="#/transactions">실거래내역</a><a href="#/area/noryangjin">노량진뉴타운</a><a href="#/area/sangdo">상도 신통기획</a><a href="#/insights">김소장의 분석</a>
     </nav>
     <div class="utilities"><button class="icon-btn" id="searchBtn" aria-label="검색">⌕</button><a class="btn small" href="#/contact">카톡 상담</a><button id="menuBtn" class="menu-btn" aria-label="메뉴 열기">☰</button></div>
   </header>
-  <aside id="mobileMenu" class="mobile-menu" aria-hidden="true"><button id="closeMenu" aria-label="메뉴 닫기">×</button><a href="#/search">매물찾기</a><a href="#/market-status">구역별 거래현황</a><a href="#/transactions">실거래내역</a><a href="#/area/noryangjin">노량진뉴타운</a><a href="#/area/sangdo">상도 신통기획</a><a href="#/insights">김소장의 분석</a><a href="#/contact">매수상담</a><a href="#/admin">관리자</a></aside>
+  <aside id="mobileMenu" class="mobile-menu" aria-hidden="true"><button id="closeMenu" aria-label="메뉴 닫기">×</button><a href="#/search">매물찾기</a><a href="#/areas">재개발 구역별 정보</a><a href="#/market-status">구역별 거래현황</a><a href="#/progress">구역별 진행상황</a><a href="#/transactions">실거래내역</a><a href="#/area/noryangjin">노량진뉴타운</a><a href="#/area/sangdo">상도 신통기획</a><a href="#/insights">김소장의 분석</a><a href="#/contact">매수상담</a><a href="#/admin">관리자</a></aside>
   <main id="app" tabindex="-1"></main>
   <footer>
     <div class="footer-brand"><a href="#/" class="logo light">내가 찾던 부동산<small>동작구 재개발 · 노량진뉴타운 · 신속통합기획 전문</small></a><p>가격보다 구조를, 정보보다 판단 기준을 전합니다.</p></div>
-    <div><b>탐색</b><a href="#/search">매물찾기</a><a href="#/market-status">구역별 거래현황</a><a href="#/transactions">실거래내역</a><a href="#/area/noryangjin">노량진뉴타운</a><a href="#/area/sangdo">상도 신통기획</a></div>
+    <div><b>탐색</b><a href="#/areas">재개발 구역별 정보</a><a href="#/search">매물찾기</a><a href="#/market-status">구역별 거래현황</a><a href="#/progress">구역별 진행상황</a><a href="#/transactions">실거래내역</a><a href="#/area/noryangjin">노량진뉴타운</a><a href="#/area/sangdo">상도 신통기획</a><a href="https://blog.naver.com/partir_12" target="_blank" rel="noopener">네이버 블로그 ↗</a><a href="https://www.instagram.com/naega_find/" target="_blank" rel="noopener">인스타그램 @naega_find ↗</a></div>
     <div><b>상담</b><a href="tel:02-816-5700">대표전화 02-816-5700</a><a href="tel:010-7752-9837">휴대전화 010-7752-9837</a><span>팩스 070-8100-2921</span><a href="https://open.kakao.com/o/sDcxMuoi" target="_blank" rel="noopener">카카오톡 오픈채팅 · 내가찾던부동산 ↗</a></div>
     <div class="footer-office"><b>내가찾던부동산</b><p>동작구 재개발 · 노량진뉴타운<br>신속통합기획 전문</p><address>서울특별시 동작구 장승배기로 131, 1층</address><p>대표 김윤아<br>공인중개사 · 정비사업전문관리사</p><p>중개사무소 등록번호<br><strong>11590-2025-00024</strong></p></div>
-    <small>© 2026 내가 찾던 부동산. 매물 및 실거래 정보는 확인 시점에 따라 변경될 수 있으므로 계약 전 최신 정보를 확인해 주세요.</small>
+    <small>© 2026 내가 찾던 부동산. 매물 및 실거래 정보는 확인 시점에 따라 변경될 수 있으므로 계약 전 최신 정보를 확인해 주세요. · <a href="#/privacy">개인정보 처리 안내</a></small>
   </footer>
+  <nav class="mobile-quick-bar" aria-label="빠른 상담">
+    <a class="mobile-call" href="tel:02-816-5700" data-conversion="phone"><span>☎</span><strong>전화 상담</strong></a>
+    <a class="mobile-kakao" href="https://open.kakao.com/o/sDcxMuoi" target="_blank" rel="noopener" data-conversion="kakao"><span>💬</span><strong>카카오 상담</strong></a>
+  </nav>
   <script src="data-config.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
-

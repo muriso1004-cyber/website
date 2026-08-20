@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "내가 찾던 부동산 노량진뉴타운 1~8구역 총정리",
+    "url": "https://blog.naver.com/partir_12/224379767305",
+    "asOf": "2026-08-15",
+    "notice": "공개 사업자료와 중개 현장 확인 내용을 바탕으로 정리한 기준일 현재 진행상황입니다. 조합 일정과 행정 절차에 따라 변경될 수 있습니다."
+  },
+  "stages": [
+    "관리처분",
+    "이주",
+    "철거",
+    "착공",
+    "일반분양·본공사",
+    "입주"
+  ],
+  "areas": [
+    {
+      "id": "N1",
+      "area": "노량진1구역",
+      "stageIndex": 1,
+      "phaseGroup": "이주",
+      "headline": "관리처분 완료 · 이주 개시",
+      "detail": "관리처분인가를 마치고 본격적인 이주 단계로 전환됩니다.",
+      "schedule": "이주 2026.08.31 ~ 2027.02.28",
+      "memberPrice84": "약 10.57~10.95억",
+      "nextStep": "이주비 실행액과 실제 초기투자금 확인",
+      "checkpoints": ["이주비", "초기투자금", "예상 분담금"]
+    },
+    {
+      "id": "N2",
+      "area": "노량진2구역",
+      "stageIndex": 4,
+      "phaseGroup": "공사",
+      "headline": "착공·일반분양 완료",
+      "detail": "일반분양을 마치고 공사가 진행 중인 사업 후반부 구역입니다.",
+      "schedule": "공사 진행",
+      "memberPrice84": "약 9.1억",
+      "nextStep": "일반분양가와 입주권 총매수가 비교",
+      "checkpoints": ["공사 진행", "총매수가", "일반분양가 비교"]
+    },
+    {
+      "id": "N3",
+      "area": "노량진3구역",
+      "stageIndex": 1,
+      "phaseGroup": "이주",
+      "headline": "관리처분 완료 · 이주 예정",
+      "detail": "관리처분인가 이후 이주 개시를 준비하는 단계입니다.",
+      "schedule": "이주 2026.10.13 ~ 2027.03.12",
+      "memberPrice84": "약 10.3억",
+      "nextStep": "권리가액별 이주비와 총매수가 확인",
+      "checkpoints": ["이주 일정", "권리가액", "대출 승계"]
+    },
+    {
+      "id": "N4",
+      "area": "노량진4구역",
+      "stageIndex": 2,
+      "phaseGroup": "철거",
+      "headline": "철거 마무리 · 착공 준비",
+      "detail": "철거를 마무리하고 착공 및 재분양 후속 절차를 준비하고 있습니다.",
+      "schedule": "재분양 후속 절차 진행",
+      "memberPrice84": "재분양 기준 확인",
+      "nextStep": "신청평형과 재분양 결과 반영",
+      "checkpoints": ["철거 마무리", "재분양", "착공 준비"]
+    },
+    {
+      "id": "N5",
+      "area": "노량진5구역",
+      "stageIndex": 2,
+      "phaseGroup": "철거",
+      "headline": "이주 완료 · 철거 진행",
+      "detail": "이주를 완료하고 철거가 진행 중인 구역입니다.",
+      "schedule": "철거 진행",
+      "memberPrice84": "약 8.8억",
+      "nextStep": "착공 전 거래조건과 총매수가 확인",
+      "checkpoints": ["철거", "총매수가", "거래조건"]
+    },
+    {
+      "id": "N6",
+      "area": "노량진6구역",
+      "stageIndex": 4,
+      "phaseGroup": "공사",
+      "headline": "일반분양·동호수 추첨 완료",
+      "detail": "착공과 일반분양, 조합원 동·호수 추첨을 마치고 본공사가 진행 중입니다.",
+      "schedule": "본공사 진행",
+      "memberPrice84": "약 6.71억",
+      "nextStep": "배정 동·층·향과 잔여 분담금 확인",
+      "checkpoints": ["본공사", "동·호수", "총매수가"]
+    },
+    {
+      "id": "N7",
+      "area": "노량진7구역",
+      "stageIndex": 2,
+      "phaseGroup": "철거",
+      "headline": "이주 완료 · 철거 진행",
+      "detail": "이주를 완료하고 철거와 멸실 절차가 진행 중입니다.",
+      "schedule": "철거·멸실 진행",
+      "memberPrice84": "약 8.17억",
+      "nextStep": "착공 준비와 이주비·잔금 조건 확인",
+      "checkpoints": ["철거", "멸실", "잔금 조건"]
+    },
+    {
+      "id": "N8",
+      "area": "노량진8구역",
+      "stageIndex": 4,
+      "phaseGroup": "공사",
+      "headline": "착공·일반분양·동호수 배정 완료",
+      "detail": "착공과 일반분양을 마치고 조합원 동·호수까지 배정된 상태입니다.",
+      "schedule": "공사 진행",
+      "memberPrice84": "약 9억원대",
+      "nextStep": "배정 동·층·향과 남은 납부금 확인",
+      "checkpoints": ["공사", "동·호수", "입주권 희소성"]
+    }
+  ]
+}

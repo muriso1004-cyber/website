@@ -1,0 +1,10 @@
+{
+  "name": "내가 찾던 부동산",
+  "short_name": "내가찾던부동산",
+  "lang": "ko-KR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f1e8",
+  "theme_color": "#243c32",
+  "description": "동작구 재개발·노량진뉴타운·신속통합기획 매물과 진행상황"
+}

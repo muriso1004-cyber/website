@@ -3,9 +3,12 @@
 window.DATA_CONFIG = {
   repositoryFullName: 'muriso1004-cyber/sangdo15',
   bundledSangdoUrl: 'assets/sangdo15-transactions-public.json',
+  bundledNoryangjinPropertiesUrl: 'assets/noryangjin-blog-properties.json',
+  bundledNoryangjinProgressUrl: 'assets/noryangjin-progress.json',
+  noryangjinBlogUrl: 'https://blog.naver.com/partir_12',
+  noryangjinBlogRssUrl: 'https://rss.blog.naver.com/partir_12.xml',
   kakaoChatUrl: 'https://open.kakao.com/o/sDcxMuoi',
   noryangjinTransactionsUrl: '',
   sangdoTransactionsUrl: '',
   refreshMinutes: 30
 };
-
