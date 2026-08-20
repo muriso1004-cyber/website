@@ -29,11 +29,19 @@
   <main id="app" tabindex="-1"></main>
   <footer>
     <div class="footer-brand"><a href="#/" class="logo light">내가 찾던 부동산<small>동작구 재개발 · 노량진뉴타운 · 신속통합기획 전문</small></a><p>가격보다 구조를, 정보보다 판단 기준을 전합니다.</p></div>
-    <div><b>탐색</b><a href="#/areas">재개발 구역별 정보</a><a href="#/search">매물찾기</a><a href="#/market-status">구역별 거래현황</a><a href="#/progress">구역별 진행상황</a><a href="#/transactions">실거래내역</a><a href="#/area/noryangjin">노량진뉴타운</a><a href="#/area/sangdo">상도 신통기획</a><a href="https://blog.naver.com/partir_12" target="_blank" rel="noopener">네이버 블로그 ↗</a><a href="https://www.instagram.com/naega_find/" target="_blank" rel="noopener">인스타그램 @naega_find ↗</a></div>
+    <div><b>탐색</b><a href="#/areas">재개발 구역별 정보</a><a href="#/search">매물찾기</a><a href="#/market-status">구역별 거래현황</a><a href="#/progress">구역별 진행상황</a><a href="#/transactions">실거래내역</a><a href="#/area/noryangjin">노량진뉴타운</a><a href="#/area/sangdo">상도 신통기획</a><a href="#/insights">김소장의 분석</a><a href="https://blog.naver.com/partir_12" target="_blank" rel="noopener">네이버 블로그 ↗</a><a href="https://naver.me/xqbPaWUt" target="_blank" rel="noopener">네이버 클립 ↗</a><a href="https://www.instagram.com/naega_find/" target="_blank" rel="noopener">인스타그램 @naega_find ↗</a></div>
     <div><b>상담</b><a href="tel:02-816-5700">대표전화 02-816-5700</a><a href="tel:010-7752-9837">휴대전화 010-7752-9837</a><span>팩스 070-8100-2921</span><a href="https://open.kakao.com/o/sDcxMuoi" target="_blank" rel="noopener">카카오톡 오픈채팅 · 내가찾던부동산 ↗</a></div>
     <div class="footer-office"><b>내가찾던부동산</b><p>동작구 재개발 · 노량진뉴타운<br>신속통합기획 전문</p><address>서울특별시 동작구 장승배기로 131, 1층</address><p>대표 김윤아<br>공인중개사 · 정비사업전문관리사</p><p>중개사무소 등록번호<br><strong>11590-2025-00024</strong></p></div>
     <small>© 2026 내가 찾던 부동산. 매물 및 실거래 정보는 확인 시점에 따라 변경될 수 있으므로 계약 전 최신 정보를 확인해 주세요. · <a href="#/privacy">개인정보 처리 안내</a></small>
   </footer>
+  <button id="chatbotToggle" class="chatbot-toggle" type="button" aria-controls="chatbotPanel" aria-expanded="false"><span>김</span><strong>김소장 안내봇</strong></button>
+  <aside id="chatbotPanel" class="chatbot-panel" role="dialog" aria-modal="false" aria-label="김소장 재개발 정보 안내봇" aria-hidden="true">
+    <div class="chatbot-head"><div><span>김</span><div><strong>김소장 안내봇</strong><small>재개발 정보 빠른 안내</small></div></div><button id="chatbotClose" type="button" aria-label="안내봇 닫기">×</button></div>
+    <div id="chatMessages" class="chat-messages" aria-live="polite"><div class="chat-message bot"><p>안녕하세요. 궁금한 구역이나 매물 조건을 입력해 보세요.</p></div></div>
+    <div class="chat-quick" aria-label="빠른 질문"><button type="button" data-chat-query="노량진7구역 정보">7구역 정보</button><button type="button" data-chat-query="현재 거래가능 매물">현재 매물</button><button type="button" data-chat-query="구역별 프리미엄">프리미엄</button><button type="button" data-chat-query="실거래 내역">실거래</button></div>
+    <form id="chatbotForm" class="chatbot-form"><label class="sr-only" for="chatbotInput">재개발 정보 질문</label><input id="chatbotInput" type="text" autocomplete="off" placeholder="예: 노량진7구역 진행상황"><button type="submit">전송</button></form>
+    <p class="chatbot-privacy">안내 내용은 서버에 저장되지 않습니다. 정확한 매물 조건은 상담으로 확인해 주세요.</p>
+  </aside>
   <nav class="mobile-quick-bar" aria-label="빠른 상담">
     <a class="mobile-call" href="tel:02-816-5700" data-conversion="phone"><span>☎</span><strong>전화 상담</strong></a>
     <a class="mobile-kakao" href="https://open.kakao.com/o/sDcxMuoi" target="_blank" rel="noopener" data-conversion="kakao"><span>💬</span><strong>카카오 상담</strong></a>

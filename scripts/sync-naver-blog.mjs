@@ -1,9 +1,10 @@
-import { readFile, writeFile } from 'node:fs/promises';
+import { access, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
 const BLOG_ID = 'partir_12';
 const RSS_URL = `https://rss.blog.naver.com/${BLOG_ID}.xml`;
 const DATA_PATH = resolve('assets/noryangjin-blog-properties.json');
+const IMAGE_DIR = resolve('assets/properties');
 const RECENT_DAYS = 21;
 const DRY_RUN = process.argv.includes('--dry-run');
 
@@ -53,6 +54,62 @@ const isListing = title => {
   return looksLikeListing && !isRoundup;
 };
 
+const firstImageFromDescription = description => {
+  const match = String(description || '').match(/<img[^>]+src=["']([^"']+)["']/i);
+  return decode(match?.[1]);
+};
+
+const advertisingDefaults = previous => ({
+  reviewStatus: 'needs_review',
+  propertyType: '재개발 조합원입주권',
+  transactionType: '매매',
+  location: '',
+  areaSqm: null,
+  floor: '',
+  totalFloors: '',
+  approvalDate: '',
+  direction: '',
+  directionBasis: '',
+  rooms: null,
+  bathrooms: null,
+  moveInDate: '',
+  parking: '',
+  managementFee: null,
+  managementFeeDetails: '',
+  ...(previous?.advertising || {})
+});
+
+const imageExtension = url => {
+  const match = String(url || '').match(/\.(png|jpe?g|webp)(?:\?|$)/i);
+  const ext = match?.[1]?.toLowerCase();
+  return ext === 'jpeg' ? 'jpg' : (ext || 'jpg');
+};
+
+const mirrorImage = async (id, sourceImageUrl, previous) => {
+  if (!sourceImageUrl) return previous?.imageUrl || '';
+  const imageUrl = `assets/properties/${id}.${imageExtension(sourceImageUrl)}`;
+  if (previous?.sourceImageUrl === sourceImageUrl && previous?.imageUrl) {
+    try {
+      await access(resolve(previous.imageUrl));
+      return previous.imageUrl;
+    } catch {}
+  }
+  if (DRY_RUN) return previous?.imageUrl || imageUrl;
+  const response = await fetch(sourceImageUrl, {
+    headers: {
+      referer: `https://blog.naver.com/${BLOG_ID}`,
+      'user-agent': 'Mozilla/5.0 (compatible; property-feed/1.0)'
+    }
+  });
+  if (!response.ok) {
+    console.warn(`Image download skipped for ${id}: ${response.status}`);
+    return previous?.imageUrl || '';
+  }
+  await mkdir(IMAGE_DIR, { recursive: true });
+  await writeFile(resolve(imageUrl), Buffer.from(await response.arrayBuffer()));
+  return imageUrl;
+};
+
 const response = await fetch(RSS_URL, { headers: { 'user-agent': 'Mozilla/5.0 (compatible; property-feed/1.0)' } });
 if (!response.ok) throw new Error(`Naver RSS request failed: ${response.status}`);
 const xml = await response.text();
@@ -63,7 +120,9 @@ const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(match => {
   const title = tag(block, 'title');
   const category = tag(block, 'category');
   const published = tag(block, 'pubDate');
-  return { logNo, title, category, published, listedAt: dateInSeoul(published) };
+  const description = tag(block, 'description');
+  const sourceImageUrl = firstImageFromDescription(description);
+  return { logNo, title, category, published, listedAt: dateInSeoul(published), sourceImageUrl };
 });
 
 const now = new Date();
@@ -82,6 +141,7 @@ for (const item of recentListings) {
   const id = `BLOG-${item.logNo}`;
   const previous = existing.get(id);
   const status = listingStatus(item.title, previous?.status);
+  const imageUrl = await mirrorImage(id, item.sourceImageUrl, previous);
   existing.set(id, {
     id,
     area: item.category,
@@ -96,14 +156,18 @@ for (const item of recentListings) {
     status,
     inventory: previous?.inventory || 'owned',
     featured: previous?.featured ?? false,
-    public: previous?.public ?? true,
+    public: previous?.public ?? false,
     listedAt: item.listedAt,
     verified: item.listedAt.replaceAll('-', '.'),
     verificationLabel: weekLabel(item.listedAt),
     soldAt: status === 'sold' ? (previous?.soldAt || item.listedAt) : previous?.soldAt,
     blogTitle: item.title,
     blogUrl: `https://blog.naver.com/${BLOG_ID}/${item.logNo}`,
+    imageUrl,
+    imageAlt: `${item.category} ${previous?.unit || unitFromTitle(item.title)} 입주권 대표 이미지`,
+    sourceImageUrl: item.sourceImageUrl || previous?.sourceImageUrl || '',
     source: '네이버 블로그',
+    advertising: advertisingDefaults(previous),
     needsReview: previous ? previous.needsReview : true,
     dataNote: previous?.dataNote || (previous ? undefined : '새 블로그 매물입니다. 공개 금액은 관리자 확인 후 입력합니다.')
   });

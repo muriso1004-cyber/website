@@ -20,12 +20,12 @@ jobs:
         run: node scripts/sync-naver-blog.mjs
       - name: Commit feed changes
         run: |
-          if git diff --quiet -- assets/noryangjin-blog-properties.json; then
+          if git diff --quiet -- assets/noryangjin-blog-properties.json assets/properties; then
             echo "No property changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/noryangjin-blog-properties.json
+          git add assets/noryangjin-blog-properties.json assets/properties
           git commit -m "data: sync Naver blog properties"
           git push
