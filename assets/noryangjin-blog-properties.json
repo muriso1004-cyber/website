@@ -6,15 +6,34 @@
     "blogUrl": "https://blog.naver.com/partir_12",
     "rssUrl": "https://rss.blog.naver.com/partir_12.xml",
     "asOf": "2026-08-21",
-    "notice": "노량진뉴타운 매물은 블로그에 공개된 구역별 확인매물을 기준으로 하며 계약 전 최신 상태를 다시 확인합니다."
+    "notice": "노량진뉴타운 매물은 블로그에 공개된 구역별 확인매물을 기준으로 하며 계약 전 최신 상태를 다시 확인합니다.",
+    "audit": {
+      "asOf": "2026-08-21",
+      "note": "광고정보 검수 미완료 매물은 고객 화면에서 공개하지 않으며, 중복 후보와 금액 불일치 후보를 별도 표시합니다."
+    },
+    "deduplication": {
+      "asOf": "2026-08-21",
+      "rule": "동일 구역·동일 평형으로 확인된 중복 게시글은 최신 등록 글만 유지",
+      "removed": [
+        {
+          "id": "BLOG-224378532890",
+          "reclassifiedArea": "노량진7구역",
+          "reason": "27억·이주비 4.5억·초투 22.5억·총 32.6억 수치가 7구역 기존 자료와 일치하며 최신 BLOG-224384307033 유지"
+        },
+        {
+          "id": "BLOG-224364645900",
+          "reason": "노량진4구역 84 중복·구버전, 최신 BLOG-224385533460 유지"
+        }
+      ]
+    }
   },
   "properties": [
     {
       "id": "BLOG-224385533460",
       "area": "노량진4구역",
       "region": "노량진뉴타운",
-      "unit": "원문 확인",
-      "sale": null,
+      "unit": "84",
+      "sale": 2330000000,
       "loan": null,
       "contribution": null,
       "refund": 0,
@@ -52,7 +71,18 @@
         "managementFeeDetails": ""
       },
       "needsReview": true,
-      "dataNote": "새 블로그 매물입니다. 공개 금액은 관리자 확인 후 입력합니다."
+      "dataNote": "최신 노량진4구역 84 입주권입니다. 매매가 23.3억·권리가액 4.307억·프리미엄 19억을 반영했으며 예상 분담금과 총매수가는 관리자 확인 후 입력합니다.",
+      "rightsValue": 430700000,
+      "premium": 1900000000,
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224385533460.png",
+          "alt": "노량진4구역 원문 확인 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MjFfMTk0/MDAxNzg3Mjg0MDMwMzk2.s03FCwStLFPBbhFcOyvAgAmmnGA5ieZShjJKGsP5YzEg.eaO8nOKcaFTiEVfwgkJQ8RF9-uUm8_vACQwSLascd-sg.PNG/8e65d010-6f98-4107-bf87-6e7e7eff41f8.png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224384307033",
@@ -95,19 +125,28 @@
         "parking": "",
         "managementFee": null,
         "managementFeeDetails": ""
-      }
+      },
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224384307033.png",
+          "alt": "노량진7구역 84A 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MjBfNTgg/MDAxNzg3MTk1MzMyNTYy.9QKe5-uvoXOpd3dabpfvpt_TtN95cmYpfMkZ__UwK1gg.xgBWr_YnpiiSVqmi0NbnoRrgkiliybSC08o7CyiLru4g.PNG/412e631a-65a0-4f44-bea4-b483f407b4e0_%282%29.png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224384466480",
       "area": "노량진8구역",
       "region": "노량진뉴타운",
       "unit": "84A",
-      "sale": null,
+      "sale": 2670000000,
       "loan": null,
-      "contribution": null,
+      "contribution": 280000000,
       "refund": 0,
       "initial": null,
-      "total": null,
+      "total": 2950000000,
       "status": "available",
       "inventory": "owned",
       "featured": false,
@@ -140,7 +179,18 @@
         "managementFeeDetails": ""
       },
       "needsReview": true,
-      "dataNote": "새 블로그 매물입니다. 공개 금액은 관리자 확인 후 입력합니다."
+      "dataNote": "107동 1103호 기준 매매가 26.7억·예상 분담금 2.8억·총 예상 매수가 29.5억을 반영했습니다. 승계 대출과 초기투자금은 확인 후 입력합니다.",
+      "building": "107동",
+      "unitNumber": "1103호",
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224384466480.png",
+          "alt": "노량진8구역 84A 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MjBfMjQw/MDAxNzg3MjAxOTMzMzg4.Xl0c8DnQzPqJkGTnrbXbGoOAbi3BW6VokquASDNY3iQg.owv_z3pO69m4qlJxwCr1fE6hxMvtN6jF2J5IUoGxhRAg.PNG/3f9265e3-0b83-4692-ac5d-71257f934a1f.png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224383185854",
@@ -183,7 +233,16 @@
         "parking": "",
         "managementFee": null,
         "managementFeeDetails": ""
-      }
+      },
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224383185854.png",
+          "alt": "노량진1구역 84 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MTlfMjk0/MDAxNzg3MTEwMDY1NjM4.TW51DBEg1k9PQvjj9Dk7YSorE-AEV1rDT54Co0AVF8Yg.5H1JMPag8eXNwUwjz44zfUz5JXD2aNakB0sL6ncIYnIg.PNG/f4c521ab-3fb7-444d-a684-d1f2a9c57c1e.png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224382222681",
@@ -226,7 +285,16 @@
         "parking": "",
         "managementFee": null,
         "managementFeeDetails": ""
-      }
+      },
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224382222681.png",
+          "alt": "노량진6구역 84A 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MThfMTYg/MDAxNzg3MDMyNDc4MDE5.e6TlZRczNxFm17wLlMqYulrMBACiSHzeRRvT2Yk4ROcg.ohDoj5ANRiUCv99zmyPkIPFkd_NpkREzKP5Pt24XYKMg.PNG/d2933a94-d450-48b4-ac70-75f0ae6fbab2.png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224381169243",
@@ -269,7 +337,16 @@
         "parking": "",
         "managementFee": null,
         "managementFeeDetails": ""
-      }
+      },
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224381169243.png",
+          "alt": "노량진6구역 84B 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MTdfMzUg/MDAxNzg2OTQ3Mzc3OTA1.xDypC0v8InjDGn9oMq4HsLdUMXLFnLFrvTpkHPTcHi8g.2SvqvOpVDMNKEotMJT11sGWqFw57K6Fx6eqTz-l8JMYg.PNG/3d09a7c4-96e0-476f-83e8-894eb68ff34f.png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224378737408",
@@ -312,52 +389,16 @@
         "parking": "",
         "managementFee": null,
         "managementFeeDetails": ""
-      }
-    },
-    {
-      "id": "BLOG-224378532890",
-      "area": "노량진3구역",
-      "region": "노량진뉴타운",
-      "unit": "84",
-      "sale": 2700000000,
-      "loan": 450000000,
-      "contribution": 560000000,
-      "refund": 0,
-      "initial": 2250000000,
-      "total": 3260000000,
-      "status": "available",
-      "inventory": "owned",
-      "featured": false,
-      "public": true,
-      "listedAt": "2026-08-14",
-      "verified": "2026.08.14",
-      "verificationLabel": "2026년 8월 2주차 확인매물",
-      "blogTitle": "✔노량진3구역 84㎡ 조합원입주권｜10년 보유·5년 거주 예외요건 ‘귀한 매물’",
-      "blogUrl": "https://blog.naver.com/partir_12/224378532890",
-      "imageUrl": "assets/properties/BLOG-224378532890.png",
-      "imageAlt": "노량진3구역 84 입주권 대표 이미지",
-      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjA4MTRfNDUg/MDAxNzg2Njg4MTMxODk2.o2ehymZuf8-wPLaC2bkCuhp0MY61SuH8jtRlqPEFeW8g.0b9kx0mSM9fjln00O-G3_CFTXCutQKrtGYVD55yDRPQg.PNG/866ed6e7-919d-498b-acf9-13020c90bbe0.png?type=s3",
-      "source": "네이버 블로그",
-      "advertising": {
-        "reviewStatus": "needs_review",
-        "propertyType": "재개발 조합원입주권",
-        "transactionType": "매매",
-        "location": "",
-        "areaSqm": null,
-        "floor": "",
-        "totalFloors": "",
-        "approvalDate": "",
-        "direction": "",
-        "directionBasis": "",
-        "rooms": null,
-        "bathrooms": null,
-        "moveInDate": "",
-        "parking": "",
-        "managementFee": null,
-        "managementFeeDetails": ""
       },
-      "needsReview": true,
-      "dataNote": "게시글의 이주비·초기투자금 설명에 서로 다른 수치가 있어 계약 전 원문과 최신 조건을 다시 확인합니다."
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224378737408.png",
+          "alt": "노량진1구역 84+49 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MTRfOCAg/MDAxNzg2NjkyOTE2Njk5.pHylZbw8d3kB2KelI9859H1Bvl56Tt_z5EEhxWRhdigg.-Dgd0LraUhf4kcBRbE4MOPpHNEbYjWHGys45cVTLHO8g.PNG/3f2674ed-744d-40af-b888-cbe65f1d1b57.png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224377840584",
@@ -366,14 +407,14 @@
       "unit": "120",
       "sale": 2600000000,
       "loan": 400000000,
-      "contribution": 377000000,
+      "contribution": 377900000,
       "refund": 0,
       "initial": 2200000000,
-      "total": 2977000000,
+      "total": 2977900000,
       "status": "available",
       "inventory": "owned",
       "featured": true,
-      "public": true,
+      "public": false,
       "listedAt": "2026-08-13",
       "verified": "2026.08.13",
       "verificationLabel": "2026년 8월 2주차 확인매물",
@@ -400,7 +441,18 @@
         "parking": "",
         "managementFee": null,
         "managementFeeDetails": ""
-      }
+      },
+      "needsReview": true,
+      "dataNote": "예상 분담금 3.779억·총 예상 매수가 29.779억의 원 단위 수치를 반영했습니다. 광고정보 검수 후 공개합니다.",
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224377840584.png",
+          "alt": "노량진5구역 120 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MTNfOTkg/MDAxNzg2NTg5NjU0NTIy.4TuzVbF1P5PDc1oCZCCHMf59z3rjrrgNFiD3rUUyckIg.1o-eum_yiYwtO7yRQs3mEt3TrNlRl2J8_iQsxna6ad0g.PNG/55416b5e-1a69-4963-9cb9-286feac5ba17_(1).png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224374158902",
@@ -443,7 +495,16 @@
         "parking": "",
         "managementFee": null,
         "managementFeeDetails": ""
-      }
+      },
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224374158902.png",
+          "alt": "노량진1구역 59+59 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MTBfMjgw/MDAxNzg2MzQ4Nzk3NTQ1.N-KC5RO92kyUbgqSsj1SvkoI3riZzAiJ-Ond1swEtiIg.Z_m9G_9d7HPwK7zK2dehCGup4xg4WwPy3XgSFLix5o0g.PNG/2dd39a2e-8762-4b98-9bc8-094f63a7c491.png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224371112475",
@@ -487,7 +548,16 @@
         "managementFee": null,
         "managementFeeDetails": ""
       },
-      "dataNote": "상가 조합원분양가와 최종 분담금은 원문 기준 미확정으로 표시합니다."
+      "dataNote": "상가 조합원분양가와 최종 분담금은 원문 기준 미확정으로 표시합니다.",
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224371112475.png",
+          "alt": "노량진2구역 84+상가 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MDdfNDAg/MDAxNzg2MDc5MTE3OTU0.TcPepdKHAzNNtlxxFDX4-0BLvuDx-fdRoM9JwWlmkOwg.SQlpvX35a39fD0dDJxdetZZRMNTOdcKKPwRyy-op8YIg.PNG/2e02dbd4-ef40-4bf2-b0f7-24c1586500e9.png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224371019257",
@@ -530,7 +600,16 @@
         "parking": "",
         "managementFee": null,
         "managementFeeDetails": ""
-      }
+      },
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224371019257.png",
+          "alt": "노량진5구역 84 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MDdfMjY2/MDAxNzg2MDc2MDc5MzMx.DjKcn3s8Ns-rMJWt8JaC6BBwsz-iGh_IKfnj5ZpFM7cg.pr5HSJSklGLvwemI4wjBeYfEBu5UBnishxocAq4_AFQg.PNG/1622f14d-dbe3-437a-baee-000a99f5baac.png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224371496685",
@@ -574,7 +653,16 @@
         "parking": "",
         "managementFee": null,
         "managementFeeDetails": ""
-      }
+      },
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224371496685.png",
+          "alt": "노량진8구역 59+59 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MTBfMjY0/MDAxNzg2MzI5NTMwNTMz.LEbARVMIVVeTY6T7YIf_l75-6bR7_c7e6oQZEtk8y9Ig.CiTkWQchKdgwIrl4N6bax7ZzMmqHzPDUKQEub-uHi3Qg.PNG/b9608727-f9e2-4b9e-8f0f-fd20b2cffb13.png?type=s3"
+        }
+      ]
     },
     {
       "id": "BLOG-224369734565",
@@ -590,7 +678,7 @@
       "status": "available",
       "inventory": "owned",
       "featured": false,
-      "public": true,
+      "public": false,
       "listedAt": "2026-08-06",
       "verified": "2026.08.06",
       "verificationLabel": "2026년 8월 1주차 확인매물",
@@ -618,51 +706,17 @@
         "managementFee": null,
         "managementFeeDetails": ""
       },
-      "dataNote": "매매가와 대출 세부 조건은 블로그 원문 및 상담에서 재확인합니다."
-    },
-    {
-      "id": "BLOG-224364645900",
-      "area": "노량진4구역",
-      "region": "노량진뉴타운",
-      "unit": "84",
-      "sale": 2100000000,
-      "loan": 0,
-      "contribution": null,
-      "refund": 0,
-      "initial": 2100000000,
-      "total": null,
-      "status": "available",
-      "inventory": "owned",
-      "featured": false,
-      "public": true,
-      "listedAt": "2026-08-01",
-      "verified": "2026.08.01",
-      "verificationLabel": "2026년 8월 1주차 확인매물",
-      "blogTitle": "✔️노량진4구역 8월1일 조합원 입주권, 이제는 나오는 매물 자체가 드문 이유와 나오는 대로 거래가 되는 이유  [노량진 뉴타운 ]",
-      "blogUrl": "https://blog.naver.com/partir_12/224364645900",
-      "imageUrl": "assets/properties/BLOG-224364645900.png",
-      "imageAlt": "노량진4구역 84 입주권 대표 이미지",
-      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjA4MDFfNTcg/MDAxNzg1NTQ1OTE2MTU2.tGJY1DP8X4_ruQaYn9Zabs62ty2xIX4doiUyWEwGsnUg.RK82e5YpVub7NR5teOmip4BIm0pSinvuDrGkXjpLA4Eg.PNG/36a6916d-4499-4b67-bec5-06a30ddb495f_(1).png?type=s3",
-      "source": "네이버 블로그",
-      "advertising": {
-        "reviewStatus": "needs_review",
-        "propertyType": "재개발 조합원입주권",
-        "transactionType": "매매",
-        "location": "",
-        "areaSqm": null,
-        "floor": "",
-        "totalFloors": "",
-        "approvalDate": "",
-        "direction": "",
-        "directionBasis": "",
-        "rooms": null,
-        "bathrooms": null,
-        "moveInDate": "",
-        "parking": "",
-        "managementFee": null,
-        "managementFeeDetails": ""
-      },
-      "dataNote": "예상 분담금은 재분양 및 조합 정산 이후 확정 예정입니다."
+      "dataNote": "초기투자금과 총매수가는 있으나 매매가·대출·분담금 구성값이 없어 원문 및 매물원장 대조가 필요합니다.",
+      "needsReview": true,
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224369734565.png",
+          "alt": "노량진6구역 59A 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MDZfMjcg/MDAxNzg1OTc4NzA4NTk2.aXEzzWcVnaCgn-Sbu45MKAx_I0KqTsak9wuZot42aPgg.7IEXMMbue98lMo6TCihcENfjJ2LbSbHeztGSz6d7kIsg.PNG/f9088c00-a30b-445d-9612-034b36db992a.png?type=s3"
+        }
+      ]
     }
   ]
 }

@@ -136,9 +136,11 @@ const recentListings = items.filter(item =>
 
 const data = JSON.parse(await readFile(DATA_PATH, 'utf8'));
 const existing = new Map(data.properties.map(property => [property.id, property]));
+const deduplicatedIds = new Set((data.source?.deduplication?.removed || []).map(item => item.id));
 
 for (const item of recentListings) {
   const id = `BLOG-${item.logNo}`;
+  if (deduplicatedIds.has(id)) continue;
   const previous = existing.get(id);
   const status = listingStatus(item.title, previous?.status);
   const imageUrl = await mirrorImage(id, item.sourceImageUrl, previous);
@@ -156,7 +158,7 @@ for (const item of recentListings) {
     status,
     inventory: previous?.inventory || 'owned',
     featured: previous?.featured ?? false,
-    public: previous?.public ?? false,
+    public: previous?.advertising?.reviewStatus === 'verified' && previous?.needsReview !== true ? (previous?.public ?? false) : false,
     listedAt: item.listedAt,
     verified: item.listedAt.replaceAll('-', '.'),
     verificationLabel: weekLabel(item.listedAt),
@@ -165,10 +167,11 @@ for (const item of recentListings) {
     blogUrl: `https://blog.naver.com/${BLOG_ID}/${item.logNo}`,
     imageUrl,
     imageAlt: `${item.category} ${previous?.unit || unitFromTitle(item.title)} 입주권 대표 이미지`,
+    media: imageUrl ? [{ type: 'image', role: 'cover', url: imageUrl, alt: `${item.category} ${previous?.unit || unitFromTitle(item.title)} 입주권 대표 이미지`, sourceUrl: item.sourceImageUrl || previous?.sourceImageUrl || '' }] : (previous?.media || []),
     sourceImageUrl: item.sourceImageUrl || previous?.sourceImageUrl || '',
     source: '네이버 블로그',
     advertising: advertisingDefaults(previous),
-    needsReview: previous ? previous.needsReview : true,
+    needsReview: previous?.needsReview ?? (previous?.advertising?.reviewStatus !== 'verified'),
     dataNote: previous?.dataNote || (previous ? undefined : '새 블로그 매물입니다. 공개 금액은 관리자 확인 후 입력합니다.')
   });
 }
