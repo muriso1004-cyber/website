@@ -136,9 +136,11 @@ const recentListings = items.filter(item =>
 
 const data = JSON.parse(await readFile(DATA_PATH, 'utf8'));
 const existing = new Map(data.properties.map(property => [property.id, property]));
+const deduplicatedIds = new Set((data.source?.deduplication?.removed || []).map(item => item.id));
 
 for (const item of recentListings) {
   const id = `BLOG-${item.logNo}`;
+  if (deduplicatedIds.has(id)) continue;
   const previous = existing.get(id);
   const status = listingStatus(item.title, previous?.status);
   const imageUrl = await mirrorImage(id, item.sourceImageUrl, previous);
