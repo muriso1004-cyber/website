@@ -75,18 +75,20 @@
         "managementFeeDetails": "없음"
       },
       "projectDetails": {
-        "buildingType": "다세대",
+        "buildingType": "멸실 (종전: 다세대)",
         "builder": "SK에코플랜트(주)",
         "plannedHouseholds": 576,
         "floorAreaRatioPercent": 228,
         "buildingCoveragePercent": 20,
-        "projectStage": "이주 및 철거",
+        "projectStage": "멸실 완료 (구역 이주·철거)",
         "buildingUse": "공동주택",
         "parkingPerHousehold": 0,
-        "illegalBuilding": false
+        "illegalBuilding": false,
+        "buildingStatus": "멸실",
+        "formerBuildingType": "다세대"
       },
       "needsReview": true,
-      "dataNote": "공동중개 확인매물입니다. 매매가 22.48억, 초기투자금 19.85억, 프리미엄 18.10억, 조합원분양가 8.17억, 총 예상 매수가 26.27억으로 확인했습니다. 상세 번지·출처 부동산·연락처는 공개 데이터에 저장하지 않았으며, 광고 필수사항은 공개 전 추가 확인이 필요합니다."
+      "dataNote": "공동중개 확인매물입니다. 현재 건축물은 멸실되었고 종전 건축물은 다세대 주택입니다. 매매가 22.48억, 초기투자금 19.85억, 프리미엄 18.10억, 조합원분양가 8.17억, 총 예상 매수가 26.27억으로 확인했습니다. 상세 번지·출처 부동산·연락처는 공개 데이터에 저장하지 않았으며, 멸실 매물의 광고 표시사항은 공개 전 추가 확인이 필요합니다."
     },
     {
       "id": "BLOG-224387498344",
