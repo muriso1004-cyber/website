@@ -83,6 +83,60 @@
       "dataNote": "새 블로그 매물입니다. 공개 금액은 관리자 확인 후 입력합니다."
     },
     {
+      "id": "BLOG-224390044100",
+      "area": "노량진7구역",
+      "region": "노량진뉴타운",
+      "unit": "84A",
+      "sale": null,
+      "loan": null,
+      "contribution": null,
+      "refund": 0,
+      "initial": null,
+      "total": null,
+      "status": "available",
+      "inventory": "owned",
+      "featured": false,
+      "public": false,
+      "listedAt": "2026-08-25",
+      "verified": "2026.08.25",
+      "verificationLabel": "2026년 8월 4주차 확인매물",
+      "blogTitle": "✔노량진7구역 84A 입주권가장 싼 구간은 이미 지났습니다 지금 이 매물을 검토해야 하는 이유",
+      "blogUrl": "https://blog.naver.com/partir_12/224390044100",
+      "imageUrl": "assets/properties/BLOG-224390044100.png",
+      "imageAlt": "노량진7구역 84A 입주권 대표 이미지",
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224390044100.png",
+          "alt": "노량진7구역 84A 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MjVfMjgz/MDAxNzg3NjUzOTA5MjUy.r1LTR1wbos0zjDAn0ywx6kNZItDeyo80cSK1tIP8Fmgg.LHhHlGnGz6waJFthos9fFtK5EATNXL0rq63ippBvKuog.PNG/a1ba6724-80c4-45da-bfab-bc061222f447.png?type=s3"
+        }
+      ],
+      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjA4MjVfMjgz/MDAxNzg3NjUzOTA5MjUy.r1LTR1wbos0zjDAn0ywx6kNZItDeyo80cSK1tIP8Fmgg.LHhHlGnGz6waJFthos9fFtK5EATNXL0rq63ippBvKuog.PNG/a1ba6724-80c4-45da-bfab-bc061222f447.png?type=s3",
+      "source": "네이버 블로그",
+      "advertising": {
+        "reviewStatus": "needs_review",
+        "propertyType": "재개발 조합원입주권",
+        "transactionType": "매매",
+        "location": "",
+        "areaSqm": null,
+        "floor": "",
+        "totalFloors": "",
+        "approvalDate": "",
+        "direction": "",
+        "directionBasis": "",
+        "rooms": null,
+        "bathrooms": null,
+        "moveInDate": "",
+        "parking": "",
+        "managementFee": null,
+        "managementFeeDetails": ""
+      },
+      "needsReview": true,
+      "dataNote": "새 블로그 매물입니다. 공개 금액은 관리자 확인 후 입력합니다."
+    },
+    {
       "id": "BLOG-224388324380",
       "area": "노량진1구역",
       "region": "노량진뉴타운",
@@ -370,7 +424,7 @@
       "listedAt": "2026-08-23",
       "verified": "2026.08.23",
       "verificationLabel": "2026년 8월 4주차 확인매물",
-      "blogTitle": "✔노량진7구역 84B 입주권｜왜 지금 7구역을 봐야 할까? 초투 19.85억 [8월 21일 확인]",
+      "blogTitle": "✔(급급매)노량진7구역 84B 입주권｜ 지금 7구역을 봐야 할까? 초투 억 [8월 21일 확인]",
       "blogUrl": "https://blog.naver.com/partir_12/224387878798",
       "imageUrl": "assets/properties/BLOG-224387878798.png",
       "imageAlt": "노량진7구역 84B 입주권 대표 이미지",
@@ -380,10 +434,10 @@
           "role": "cover",
           "url": "assets/properties/BLOG-224387878798.png",
           "alt": "노량진7구역 84B 입주권 대표 이미지",
-          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MjNfMjkz/MDAxNzg3NDk2NzY5MzYx.0kgSYIT27Zw5nNj4zkYF4Sd5pCLVU5H98UbBT8gHv6sg.2JATz-4tKwAgo2kuPSwXf9BNw_iXprU1GbPo8LZR22Yg.PNG/N7-84B-MARK-20260821-main-v3.png?type=s3"
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MjVfMTU3/MDAxNzg3NjUzNTgyMjY3.WUENugFOMbN4EdfEOuPobaYJKO0tO2ARna4YJDbFsYsg.DcTkiOZ9JRTuDShiq2ipBT2oeUeuHVDXBswphECzW7og.PNG/f6e56e6c-9603-40a0-bbcb-ea876ce748d1.png?type=s3"
         }
       ],
-      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjA4MjNfMjkz/MDAxNzg3NDk2NzY5MzYx.0kgSYIT27Zw5nNj4zkYF4Sd5pCLVU5H98UbBT8gHv6sg.2JATz-4tKwAgo2kuPSwXf9BNw_iXprU1GbPo8LZR22Yg.PNG/N7-84B-MARK-20260821-main-v3.png?type=s3",
+      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjA4MjVfMTU3/MDAxNzg3NjUzNTgyMjY3.WUENugFOMbN4EdfEOuPobaYJKO0tO2ARna4YJDbFsYsg.DcTkiOZ9JRTuDShiq2ipBT2oeUeuHVDXBswphECzW7og.PNG/f6e56e6c-9603-40a0-bbcb-ea876ce748d1.png?type=s3",
       "source": "네이버 블로그",
       "advertising": {
         "reviewStatus": "needs_review",
