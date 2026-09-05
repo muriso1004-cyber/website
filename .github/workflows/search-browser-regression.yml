@@ -1,0 +1,21 @@
+name: Search browser regression
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 21 * * *'
+
+jobs:
+  search-filter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+        env:
+          SITE_URL: https://website-muriso.vercel.app
