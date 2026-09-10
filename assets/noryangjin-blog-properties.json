@@ -903,14 +903,15 @@
       "refund": 0,
       "initial": null,
       "total": null,
-      "status": "available",
+      "status": "sold",
       "inventory": "owned",
       "featured": false,
       "public": false,
       "listedAt": "2026-08-29",
       "verified": "2026.08.29",
       "verificationLabel": "2026년 8월 5주차 확인매물",
-      "blogTitle": "✔노량진5구역 거래가능한 84입주권 8월 4주 추천매물 [노량진뉴타운]",
+      "soldAt": "2026-08-29",
+      "blogTitle": "✔[거래완료]노량진5구역 거래가능한 84입주권 8월 4주 추천매물 [노량진뉴타운]",
       "blogUrl": "https://blog.naver.com/partir_12/224394240037",
       "imageUrl": "assets/properties/BLOG-224394240037.png",
       "imageAlt": "노량진5구역 84 입주권 대표 이미지",
@@ -920,10 +921,10 @@
           "role": "cover",
           "url": "assets/properties/BLOG-224394240037.png",
           "alt": "노량진5구역 84 입주권 대표 이미지",
-          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA4MjlfMTk2/MDAxNzg3OTg3MDE5MjA0.t0vdDiwRV-MG04YbWT5gFiL_QPvskp4uRau_Ote0OBcg.DsysfJoRG8XSLlqFyDE2n8KzAo-imQLAiVf9pCVtkJAg.PNG/658b31f7-619a-4b14-84ab-e63684633ad1.png?type=s3"
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA5MTBfMTkz/MDAxNzg5MDMwNzExMDI5.6g6qy6FLuyc4MpDivSqCllZ-jj8WfDSPDCP4aD7JmFcg.IXFwvVlX0EHe04WocWMZSq8iHh7WGUGTDKU2tirMXsog.PNG/658b31f7-619a-4b14-84ab-e63684633ad1.png?type=s3"
         }
       ],
-      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjA4MjlfMTk2/MDAxNzg3OTg3MDE5MjA0.t0vdDiwRV-MG04YbWT5gFiL_QPvskp4uRau_Ote0OBcg.DsysfJoRG8XSLlqFyDE2n8KzAo-imQLAiVf9pCVtkJAg.PNG/658b31f7-619a-4b14-84ab-e63684633ad1.png?type=s3",
+      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjA5MTBfMTkz/MDAxNzg5MDMwNzExMDI5.6g6qy6FLuyc4MpDivSqCllZ-jj8WfDSPDCP4aD7JmFcg.IXFwvVlX0EHe04WocWMZSq8iHh7WGUGTDKU2tirMXsog.PNG/658b31f7-619a-4b14-84ab-e63684633ad1.png?type=s3",
       "source": "네이버 블로그",
       "advertising": {
         "reviewStatus": "needs_review",
