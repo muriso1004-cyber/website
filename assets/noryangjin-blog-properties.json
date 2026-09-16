@@ -29,6 +29,60 @@
   },
   "properties": [
     {
+      "id": "BLOG-224414076948",
+      "area": "노량진6구역",
+      "region": "노량진뉴타운",
+      "unit": "84A",
+      "sale": null,
+      "loan": null,
+      "contribution": null,
+      "refund": 0,
+      "initial": null,
+      "total": null,
+      "status": "available",
+      "inventory": "owned",
+      "featured": false,
+      "public": false,
+      "listedAt": "2026-09-16",
+      "verified": "2026.09.16",
+      "verificationLabel": "2026년 9월 3주차 확인매물",
+      "blogTitle": "✔노량진6구역 로얄동 84A  강력추천 매물  [노량진뉴타운 매물 추천 ]동호수 추첨완료 9월3주차",
+      "blogUrl": "https://blog.naver.com/partir_12/224414076948",
+      "imageUrl": "assets/properties/BLOG-224414076948.png",
+      "imageAlt": "노량진6구역 84A 입주권 대표 이미지",
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224414076948.png",
+          "alt": "노량진6구역 84A 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA5MTZfMTYy/MDAxNzg5NTU2MTg5Njg0.Xrw0NPASt5QbsjyhHLImizTLBpjGiIuqvwyBWQgL6N0g.l79Yrpx22xCZV4kzFYl5uXjKqvDum6vtee0wAcIWzukg.PNG/756f2b1c-c49b-401a-9251-4bb6cb9d1983.png?type=s3"
+        }
+      ],
+      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjA5MTZfMTYy/MDAxNzg5NTU2MTg5Njg0.Xrw0NPASt5QbsjyhHLImizTLBpjGiIuqvwyBWQgL6N0g.l79Yrpx22xCZV4kzFYl5uXjKqvDum6vtee0wAcIWzukg.PNG/756f2b1c-c49b-401a-9251-4bb6cb9d1983.png?type=s3",
+      "source": "네이버 블로그",
+      "advertising": {
+        "reviewStatus": "needs_review",
+        "propertyType": "재개발 조합원입주권",
+        "transactionType": "매매",
+        "location": "",
+        "areaSqm": null,
+        "floor": "",
+        "totalFloors": "",
+        "approvalDate": "",
+        "direction": "",
+        "directionBasis": "",
+        "rooms": null,
+        "bathrooms": null,
+        "moveInDate": "",
+        "parking": "",
+        "managementFee": null,
+        "managementFeeDetails": ""
+      },
+      "needsReview": true,
+      "dataNote": "새 블로그 매물입니다. 공개 금액은 관리자 확인 후 입력합니다."
+    },
+    {
       "id": "BLOG-224412123002",
       "area": "노량진5구역",
       "region": "노량진뉴타운",
@@ -326,10 +380,10 @@
           "role": "cover",
           "url": "assets/properties/BLOG-224411380988.png",
           "alt": "노량진7구역 84A 입주권 대표 이미지",
-          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA5MTRfMjk0/MDAxNzg5MzcwNTEyNTYz.bh7s_D4IdkfXm_-dzgi7KJNYgThZOyTtWV_fEwOJxtog.vWrq77KW0hb6mxpNLM6rjIs-5UxVa1LkH__Rh25rC-Qg.PNG/968143ab-2804-4ef1-b0f3-f0f434045e24.png?type=s3"
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjA5MTRfMjk2/MDAxNzg5MzcwNTY3NjEw.mzykH3Pzj9C3NA8DjVKRVpvXe4i-aRKO6WXp_jn20aEg.VbI0sPYfs564J3XED3hJuo3DkPzhTkNgqkrMmkwoMX8g.PNG/9840eb93-32d9-41f3-85f7-2d0d2a9a07af_%281%29.png?type=s3"
         }
       ],
-      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjA5MTRfMjk0/MDAxNzg5MzcwNTEyNTYz.bh7s_D4IdkfXm_-dzgi7KJNYgThZOyTtWV_fEwOJxtog.vWrq77KW0hb6mxpNLM6rjIs-5UxVa1LkH__Rh25rC-Qg.PNG/968143ab-2804-4ef1-b0f3-f0f434045e24.png?type=s3",
+      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjA5MTRfMjk2/MDAxNzg5MzcwNTY3NjEw.mzykH3Pzj9C3NA8DjVKRVpvXe4i-aRKO6WXp_jn20aEg.VbI0sPYfs564J3XED3hJuo3DkPzhTkNgqkrMmkwoMX8g.PNG/9840eb93-32d9-41f3-85f7-2d0d2a9a07af_%281%29.png?type=s3",
       "source": "네이버 블로그",
       "advertising": {
         "reviewStatus": "needs_review",
