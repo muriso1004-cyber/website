@@ -8,6 +8,7 @@ window.DATA_CONFIG = {
   noryangjinBlogUrl: 'https://blog.naver.com/partir_12',
   noryangjinBlogRssUrl: 'https://rss.blog.naver.com/partir_12.xml',
   kakaoChatUrl: 'https://open.kakao.com/o/sDcxMuoi',
+  kakaoMapAppKey: '',
   noryangjinTransactionsUrl: '',
   sangdoTransactionsUrl: '',
   refreshMinutes: 30
