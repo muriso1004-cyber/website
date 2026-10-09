@@ -48,10 +48,18 @@
       "verificationLabel": "2026년 10월 2주차 확인매물",
       "blogTitle": "✔노량진3구역 84㎡ 조합원입주권｜초기투자금 22.5억·총 매수가 32.6억",
       "blogUrl": "https://blog.naver.com/partir_12/224436264797",
-      "imageUrl": "",
+      "imageUrl": "assets/properties/BLOG-224436264797.jpg",
       "imageAlt": "노량진3구역 84 입주권 대표 이미지",
-      "media": [],
-      "sourceImageUrl": "",
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224436264797.jpg",
+          "alt": "노량진3구역 84 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjEwMDlfMjE5/MDAxNzkxNTI3NDMzNzU1.gQhKNOb1hUaL753is0CZZBGTN79Q7rlXFClOauKZzwgg.pjK05fd7e2tpm6m3oB8w5p4y9T0BDPZaevuZ011_aggg.JPEG/01-main.jpg?type=s3"
+        }
+      ],
+      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjEwMDlfMjE5/MDAxNzkxNTI3NDMzNzU1.gQhKNOb1hUaL753is0CZZBGTN79Q7rlXFClOauKZzwgg.pjK05fd7e2tpm6m3oB8w5p4y9T0BDPZaevuZ011_aggg.JPEG/01-main.jpg?type=s3",
       "source": "네이버 블로그",
       "advertising": {
         "reviewStatus": "needs_review",
