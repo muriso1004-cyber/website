@@ -29,6 +29,60 @@
   },
   "properties": [
     {
+      "id": "BLOG-224448844872",
+      "area": "노량진1구역",
+      "region": "노량진뉴타운",
+      "unit": "84",
+      "sale": null,
+      "loan": null,
+      "contribution": null,
+      "refund": 0,
+      "initial": null,
+      "total": null,
+      "status": "available",
+      "inventory": "owned",
+      "featured": false,
+      "public": false,
+      "listedAt": "2026-10-21",
+      "verified": "2026.10.21",
+      "verificationLabel": "2026년 10월 3주차 확인매물",
+      "blogTitle": "■노량진1구역 매물 84㎡ 분양신청 입주권｜매도 의사 확인·초기투자금 21.3억",
+      "blogUrl": "https://blog.naver.com/partir_12/224448844872",
+      "imageUrl": "assets/properties/BLOG-224448844872.png",
+      "imageAlt": "노량진1구역 84 입주권 대표 이미지",
+      "media": [
+        {
+          "type": "image",
+          "role": "cover",
+          "url": "assets/properties/BLOG-224448844872.png",
+          "alt": "노량진1구역 84 입주권 대표 이미지",
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjEwMjFfMjk2/MDAxNzkyNTUzOTQ0OTg5.qWuwEl6gy6mWCQhHmBvlwglLVMrg9kDccVxMp5MT6TQg.x0m86pXw-tjzNTiDcqclGfyHPxwIZBJlNh6fzzBpxy4g.PNG/ChatGPT_%C0%CC%B9%CC%C1%F6_2026%B3%E2_10%BF%F9_21%C0%CF_%BF%C0%C0%FC_11_17_16.png?type=s3"
+        }
+      ],
+      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjEwMjFfMjk2/MDAxNzkyNTUzOTQ0OTg5.qWuwEl6gy6mWCQhHmBvlwglLVMrg9kDccVxMp5MT6TQg.x0m86pXw-tjzNTiDcqclGfyHPxwIZBJlNh6fzzBpxy4g.PNG/ChatGPT_%C0%CC%B9%CC%C1%F6_2026%B3%E2_10%BF%F9_21%C0%CF_%BF%C0%C0%FC_11_17_16.png?type=s3",
+      "source": "네이버 블로그",
+      "advertising": {
+        "reviewStatus": "needs_review",
+        "propertyType": "재개발 조합원입주권",
+        "transactionType": "매매",
+        "location": "",
+        "areaSqm": null,
+        "floor": "",
+        "totalFloors": "",
+        "approvalDate": "",
+        "direction": "",
+        "directionBasis": "",
+        "rooms": null,
+        "bathrooms": null,
+        "moveInDate": "",
+        "parking": "",
+        "managementFee": null,
+        "managementFeeDetails": ""
+      },
+      "needsReview": true,
+      "dataNote": "새 블로그 매물입니다. 공개 금액은 관리자 확인 후 입력합니다."
+    },
+    {
       "id": "BLOG-224447406301",
       "area": "노량진6구역",
       "region": "노량진뉴타운",
@@ -56,10 +110,10 @@
           "role": "cover",
           "url": "assets/properties/BLOG-224447406301.png",
           "alt": "노량진6구역 원문 확인 입주권 대표 이미지",
-          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjEwMjBfMTE3/MDAxNzkyNDU2MDIwODU1.QTRAN-f0SA2iufbObPQrBe9Ty6zwqktG9r3CDKMEeSgg.PXkt4591-j6FoPkArBVg2zzzpCGN6EOJouLe5Xrw-zsg.PNG/download_%285%29.png?type=s3"
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjEwMjFfMTQ4/MDAxNzkyNTQ0MTQ4MjEx.RuQ7Kvp1vZ2chR_OSRO41PAh0-huUFY582BoxdyiCvEg.ggMz1rQHJNo2DRVRjKCGbPZ7rGZracwKmKfwyzcf2-Yg.PNG/exec-d6938005-bad4-4bc4-ab09-89fca101d70f.png?type=s3"
         }
       ],
-      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjEwMjBfMTE3/MDAxNzkyNDU2MDIwODU1.QTRAN-f0SA2iufbObPQrBe9Ty6zwqktG9r3CDKMEeSgg.PXkt4591-j6FoPkArBVg2zzzpCGN6EOJouLe5Xrw-zsg.PNG/download_%285%29.png?type=s3",
+      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjEwMjFfMTQ4/MDAxNzkyNTQ0MTQ4MjEx.RuQ7Kvp1vZ2chR_OSRO41PAh0-huUFY582BoxdyiCvEg.ggMz1rQHJNo2DRVRjKCGbPZ7rGZracwKmKfwyzcf2-Yg.PNG/exec-d6938005-bad4-4bc4-ab09-89fca101d70f.png?type=s3",
       "source": "네이버 블로그",
       "advertising": {
         "reviewStatus": "needs_review",
