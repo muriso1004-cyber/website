@@ -5,7 +5,7 @@
     "blogId": "partir_12",
     "blogUrl": "https://blog.naver.com/partir_12",
     "rssUrl": "https://rss.blog.naver.com/partir_12.xml",
-    "asOf": "2026-11-17",
+    "asOf": "2026-11-18",
     "notice": "노량진뉴타운 매물은 블로그에 공개된 구역별 확인매물을 기준으로 하며 계약 전 최신 상태를 다시 확인합니다.",
     "audit": {
       "asOf": "2026-08-21",
@@ -48,18 +48,18 @@
       "verificationLabel": "2026년 11월 3주차 확인매물",
       "blogTitle": "■노량진 20억 이하 84㎡ 입주권｜노량진7구역 84B 매매 19억 5,000만원[ 착공임박]",
       "blogUrl": "https://blog.naver.com/partir_12/224480518750",
-      "imageUrl": "assets/properties/BLOG-224480518750.jpg",
+      "imageUrl": "assets/properties/BLOG-224480518750.png",
       "imageAlt": "노량진7구역 84 입주권 대표 이미지",
       "media": [
         {
           "type": "image",
           "role": "cover",
-          "url": "assets/properties/BLOG-224480518750.jpg",
+          "url": "assets/properties/BLOG-224480518750.png",
           "alt": "노량진7구역 84 입주권 대표 이미지",
-          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjExMTdfMTcg/MDAxNzk0ODkyMDk4NTc1.THTEIcqHHjO-Cuw8dpvTDQe6FPxlKhIWnRr4QqRSd_og.tVG5pAf75NcOPsfDjqkQ9xQ4vU_TVOshpVbpayNJ6K0g.JPEG/201101131758401294909120730.jpg?type=s3"
+          "sourceUrl": "https://blogthumb.pstatic.net/MjAyNjExMTdfMjgw/MDAxNzk0ODkyMTM5MTQy.2xXS5uDyu9wZV_5Ed7n94KO1hTOz1SDtBQXFy4abPBIg.yCrksIw9ieXxDVMzSO_UTiJAc6TeEF8DHau2bKBMNikg.PNG/73f8be8b-b44d-4d19-b877-bc2f51d9756f_%281%29.png?type=s3"
         }
       ],
-      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjExMTdfMTcg/MDAxNzk0ODkyMDk4NTc1.THTEIcqHHjO-Cuw8dpvTDQe6FPxlKhIWnRr4QqRSd_og.tVG5pAf75NcOPsfDjqkQ9xQ4vU_TVOshpVbpayNJ6K0g.JPEG/201101131758401294909120730.jpg?type=s3",
+      "sourceImageUrl": "https://blogthumb.pstatic.net/MjAyNjExMTdfMjgw/MDAxNzk0ODkyMTM5MTQy.2xXS5uDyu9wZV_5Ed7n94KO1hTOz1SDtBQXFy4abPBIg.yCrksIw9ieXxDVMzSO_UTiJAc6TeEF8DHau2bKBMNikg.PNG/73f8be8b-b44d-4d19-b877-bc2f51d9756f_%281%29.png?type=s3",
       "source": "네이버 블로그",
       "advertising": {
         "reviewStatus": "needs_review",
